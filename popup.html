@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AI co-pilot options</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        background-color: #0073e6;
+        color: #fff;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0059b3;
+      }
+      .success {
+        color: green;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .error {
+        color: red;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AI co-pilot options</h1>
+    <form>
+      <label for="apiKey">API key:</label>
+      <input type="text" id="apiKey" name="apiKey">
+      <button type="button" id="saveButton">Save</button>
+      <div id="message"></div>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
